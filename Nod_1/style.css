@@ -1,0 +1,46 @@
+/* article {
+    font-size: 1.2rem;
+    background-color: blue;
+    color: white;
+    margin: 0 auto;
+    padding: 1rem;
+} */
+
+
+/* .myclass {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+} */
+
+/* .myclass p {
+    font-size: 1.2rem;
+    line-spacing: 2;
+} */
+
+
+/* --------------------------------------------- */
+p.myclass {
+    color: red;
+}
+
+/* ul.myclass {
+    color: blue;
+} */
+
+/* p#myid {
+    color: green;
+    background-color: yellow;
+} */
+
+article#myid {
+    color: green;
+    background-color: orange;
+}
+
+.myclass {
+    color: orange;
+    font-weight: bold;
+}
