@@ -7,13 +7,13 @@
 } */
 
 
-/* .myclass {
+.myclass {
     width: 300px;
     height: 400px;
     float: left;
     margin: 0 10px 10px 0;
     padding: 10px;
-} */
+}
 
 /* .myclass p {
     font-size: 1.2rem;
@@ -35,7 +35,8 @@ p.myclass {
     background-color: yellow;
 } */
 
-article#myid {
+article,
+#myid {
     color: green;
     background-color: orange;
 }
