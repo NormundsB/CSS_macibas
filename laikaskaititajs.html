@@ -4,7 +4,7 @@
     #myProgress {
         font-family: avenir;
         font-weight: bolder;
-        width: 600px;
+        width: 450px;
         background-color: #ddd;
         border-radius: 4px;
     }
@@ -15,7 +15,7 @@
         width: 10px;
         text-align: center;
         text-decoration: none;
-        padding: 2px 6px;
+        padding: 6px 6px;
         border-radius: 4px;
     }
 </style>
@@ -25,7 +25,7 @@
     <h1>JavaScript Progress Bar</h1>
 
     <div id="myProgress">
-        <div id="myBar">1%</div>
+        <div id="myBar">1</div>
     </div>
 
     <br>
@@ -37,16 +37,16 @@
             if (i == 0) {
                 i = 1;
                 var elem = document.getElementById("myBar");
-                var width = 1;
+                var width = 10;
                 var id = setInterval(frame, 3600);
                 function frame() {
-                    if (width >= 100) {
+                    if (width >= 1) {
                         clearInterval(id);
                         i = 0;
                     } else {
                         width++;
-                        elem.style.width = width + "";
-                        elem.innerHTML = width + "";
+                        elem.style.width = width + " ";
+                        elem.innerHTML = width + " ";
                     }
                 }
             }
